@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.navbar__nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__nav button .navbar__register,
+.navbar__nav button .navbar__icon {
+  color: white;
+}
+
+.navbar__nav button .navbar__register {
+    margin-right: 5px;
+}
+
+.navbar__nav button {
+  border: none;
+  padding: 10px 15px;
+  background-color: #43a046;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
